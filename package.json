@@ -1,0 +1,21 @@
+{
+  "name": "LiskRide",
+  "version": "1.0.0",
+  "description": "Lisk Ride POC",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean-Michel Alandou<alandou.jeanmichl@gmail.com>",
+  "keywords": [
+    "lisk",
+    "blockchain",
+    "liskride",
+    "share"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@liskhq/lisk-transactions": "^4.0.0-alpha.0",
+    "lisk-sdk": "^4.0.0-alpha.0"
+  }
+}

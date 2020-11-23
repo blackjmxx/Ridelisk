@@ -1,0 +1,32 @@
+{
+  "name": "lisk_passphrase",
+  "version": "1.0.0",
+  "description": "Lisk Passphrase generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "postinstall": "node ./bufferFix.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@liskhq/lisk-client": "^4.0.0-debug.0",
+    "lisk-hello-transactions": "file:../transactions",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
